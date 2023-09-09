@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER </title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div class="heading-div">
+<h1 class="heading"> TEMPERATURE CONVERTER </h1>
+    </div>
+
+    <div class="wrapper">
+        <div class="container">
+            <label for="celsius">Celsius</label>
+            <input type="number" id="celsius" oninput= "celToFar()">
+       
+            <label for="fahrenheit">Fahrenheit</label>
+            <input type="number" id="fahrenheit" oninput = "farToCel()">
+        </div>
+        <div class="note">
+            <p>Note:- </p>
+            <p>The unit of the Celcius is (°C)</p>
+            <p>The unit of the Fahrenheit is (°F)</p>  
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
